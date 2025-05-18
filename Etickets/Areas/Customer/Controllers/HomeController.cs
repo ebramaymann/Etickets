@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Etickets.Areas.Customer.Controllers
 {
+   
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext context = new ApplicationDbContext();

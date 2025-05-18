@@ -8,7 +8,7 @@ namespace Etickets.Areas.Admin.Controllers
         private readonly ApplicationDbContext context = new ApplicationDbContext();
 
 
-        [Area("Admin")]
+       
         public IActionResult Index()
         {
             return View();
